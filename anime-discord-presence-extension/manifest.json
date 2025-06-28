@@ -25,11 +25,11 @@
       "https://*.kickassanime.mx/*",
       "https://*.kickassanime.com/*",
       "https://9animetv.to/*",
-      "https://aniwave.to/watch/*"
+      "https://ww.aniwave.se/anime-watch/*"
     ],
     "content_scripts": [
       {
-        "matches": ["https://aniwave.to/watch/*", "https://*.kickassanime.mx/*", "https://*.kickassanime.com/*", "https://9animetv.to/*"],
+        "matches": ["https://ww.aniwave.se/anime-watch/*", "https://*.kickassanime.mx/*", "https://*.kickassanime.com/*", "https://9animetv.to/*"],
         "js": ["dist/index.js"]
       }
     ]
