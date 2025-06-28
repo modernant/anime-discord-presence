@@ -30,7 +30,7 @@ export function getAniwaveThumbnail() {
 
 export function getAniwaveEpisodeNumber() {
     try {
-        //url structure: aniwave.to/watch/anime-name<hash>/ep-<episode-number>
+        //url structure: aniwave.se/watch-anime/name/ep-<episode-number>
         return url.split("/").at(-1).split("-").at(-1);
     } catch {
         return "";
